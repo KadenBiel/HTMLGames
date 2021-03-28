@@ -1,0 +1,25 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>Ryan Broadbent's L's by Kaden Biel</title>
+    </head>
+    <body onload="init()">
+        <h1>Look at Those L's</h1>
+        <div>
+            <a href="https://secondday-johnfourteensix.c9users.io/">Home</a><br/>
+            Ryan Broadbent has <p id="count" style="margin-top:none;"></p> L's
+        </div>
+        <script type="text/javascript">
+            const count = document.getElementById('count');
+            var l = 10
+            function update() {
+                l += l*.3;
+                count.innerText = Math.round(l).toString()
+            };
+            function init() {
+                update();
+                setInterval(() => update(), 50)
+            }
+        </script>
+    </body>
+</html>

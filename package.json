@@ -1,0 +1,9 @@
+{
+  "name": "HTMLGames",
+  "version": "1.0.0",
+  "description": "Fun little HTML game library for Desktop",
+  "main": "./src/main/main.js",
+  "repository": "https://github.com/KadenBiel/HTMLGames.git",
+  "author": "Kaden Biel <kaden.secondday@gmail.com>",
+  "license": "GNU"
+}
